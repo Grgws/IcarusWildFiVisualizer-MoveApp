@@ -1,0 +1,17 @@
+name: IcarusWildFiVisualizer-MoveApp
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - geopandas
+  - movingpandas
+  - pluggy
+  - python-dotenv
+
+  - numpy
+  - dash
+  - Flask
+  - gunicorn
+  - plotly
+  - networkx

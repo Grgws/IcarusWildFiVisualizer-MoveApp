@@ -1,4 +1,4 @@
-# {Name of App}
+# Icarus WildFi Visualizer
 
 *Give your app a short and informative title. Please adhere to our convention of Title Case without hyphens (e.g. `My New App`)*
 

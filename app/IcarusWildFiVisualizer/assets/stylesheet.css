@@ -1,0 +1,72 @@
+body{
+    margin:0;
+}
+
+.header{
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 10px, rgba(0, 0, 0, 0.1) 0px 1px 6px;
+}
+
+
+.dash-table-container{
+  min-height: 0%;
+  flex: 1 1 auto;
+  }
+
+/* Loading spinner on page load:
+https://community.plotly.com/t/remove-dash-loading-text/27773 */
+.react-entry-point {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+._dash-loading,
+._dash-loading:after {
+    border-radius: 50%;
+    width: 5em;
+    height: 5em;
+}
+._dash-loading {
+    overflow: hidden;
+    margin: auto;
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-indent: -9999em;
+    border-top: 0.7em solid #90c5f2;
+    border-right: 0.7em solid #90c5f2;
+    border-bottom: 0.7em solid #90c5f2;
+    border-left: 0.7em solid #228be6;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation: load8 1.1s infinite linear;
+    animation: load8 1.1s infinite linear;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
